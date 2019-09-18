@@ -16,7 +16,7 @@ public class FizzBuzz {
    String fb = "";
 if (value % 3 == 0) {
   fb += "Fizz";
-
+}
   if (value %5 ==0){
     fb += "Buzz";
   }
@@ -27,5 +27,4 @@ if (value % 3 == 0) {
   return fb;
 }
 
-   /* return null;
 }
